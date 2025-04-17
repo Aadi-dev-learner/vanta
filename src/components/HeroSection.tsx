@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Bitcoin, Ethereum, Codepen } from "lucide-react";
+import { ArrowRight, Bitcoin, Coins, Codepen } from "lucide-react";
 
 export const HeroSection = () => {
   return (
@@ -38,7 +38,7 @@ export const HeroSection = () => {
                   <span className="text-sm font-medium">Bitcoin</span>
                 </div>
                 <div className="flex items-center gap-2 bg-white dark:bg-gray-800 shadow-sm px-3 py-2 rounded-full">
-                  <Ethereum className="h-4 w-4 text-blue-500" />
+                  <Coins className="h-4 w-4 text-blue-500" />
                   <span className="text-sm font-medium">Ethereum</span>
                 </div>
                 <div className="flex items-center gap-2 bg-white dark:bg-gray-800 shadow-sm px-3 py-2 rounded-full">
